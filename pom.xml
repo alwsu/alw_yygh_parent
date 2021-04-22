@@ -4,9 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>common</module>
-		<module>common</module>
-		<module>common</module>
-		<module>common</module>
 		<module>model</module>
 		<module>service</module>
 	</modules>
@@ -127,4 +124,14 @@
 		</dependency>
 	</dependencies>
 	</dependencyManagement>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>easyexcel</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+	</dependencies>
+
+
 </project>
